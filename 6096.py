@@ -2,13 +2,13 @@
 i,j=0,0
 arr = [[0 for col in range(19)] for row in range(19)]
 while i<19:
-	fuck=list(map(int,input().split()))
+	temp=list(map(int,input().split()))
 	while j<19:
-		arr[i][j]=fuck[j]
+		arr[i][j]=temp[j]
 		j+=1
 	i+=1
 	j=0
-	fuck.clear()
+	temp.clear()
 i,j=0,0
 
 num=int(input())
